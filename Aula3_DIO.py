@@ -6,6 +6,7 @@ c = int(input('Terceiro bimestre: '))
 d = int(input('Quarto bimestre: '))
 
 media = (a+b+c+d)/4
+
 if a <= 10 and b <= 10 and c <= 10 and d <= 10:
     print('A media do aluno ' + aluno + ' é: {}'.format(media))
 else:
@@ -38,3 +39,6 @@ else:
 #     print('O maior número é C {}'.format(c))
 #
 # print('Programa finalizado')
+
+
+
